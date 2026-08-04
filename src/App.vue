@@ -3,7 +3,7 @@
 <template>
   <h1>Init</h1>
   <p>
-    Empty page
+    Test
   </p>
 </template>
 
