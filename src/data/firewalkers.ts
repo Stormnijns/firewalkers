@@ -24,14 +24,14 @@ export const firewalkers: MangaPage[] = [
     height: 102.2,
     panels: [
       {
-        src: "_title.png",
+        src: "ch0_title.png",
         right: 0,
         top: 0,
         scale: 100,
         border: ".15rem solid black"
       },
       {
-        src: "_thumbnail.png",
+        src: "ch0_thumbnail.png",
         right: 0,
         top: 18.4,
         scale: 100,
