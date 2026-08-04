@@ -1,10 +1,35 @@
-<script setup></script>
+<script setup>
+import MangaPage from "./components/MangaPage.vue";
+import { firewalkers } from "./data/firewalkers";
+</script>
 
 <template>
-  <h1>Init</h1>
-  <p>
-    Test
-  </p>
+  <main>
+    <div id="display">
+      <MangaPage
+        v-for="page in firewalkers"
+        :key="page.page"
+        manga="firewalkers"
+        :chapter="1"
+        :page="page"
+      />
+    </div>
+  </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#display {
+  margin: 1rem;
+  width: min(900px, 100%);
+}
+.page {
+  background: whitesmoke;
+  margin-bottom: 1rem;
+}
+</style>
