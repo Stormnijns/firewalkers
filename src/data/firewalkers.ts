@@ -127,7 +127,36 @@ export const firewalkers: any = {
       {
         page: 4,
         height: 71,
-        panels: [],
+        panels: [
+          {
+            src: 'ch1_pg4_nr1.png',
+            right: 0,
+            top: 0,
+            scale: 100,
+            border: '.15rem solid black',
+          },
+          {
+            src: 'ch1_pg4_nr2.png',
+            right: 0,
+            top: 20,
+            scale: 59,
+            border: '.15rem solid black',
+          },
+          {
+            src: 'ch1_pg4_nr4.png',
+            right: 0,
+            top: 41.5,
+            scale: 35,
+            border: '.15rem solid black',
+          },
+          {
+            src: 'ch1_pg4_nr3.png',
+            left: 0,
+            top: 27,
+            scale: 50,
+            border: '.15rem solid black',
+          },
+        ],
       },
       {
         page: 5,
