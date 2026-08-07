@@ -21,7 +21,7 @@ export const firewalkers: any = {
   chapters: {
     1: [
       {
-        description: "INTO THE UNKNOWN",
+        description: 'INTO THE UNKNOWN',
       },
       {
         page: 0,
@@ -44,7 +44,7 @@ export const firewalkers: any = {
       },
       {
         page: 1,
-        height: 71,
+        height: 66.3,
         panels: [
           {
             src: 'ch1_pg1_nr1.png',
@@ -71,8 +71,15 @@ export const firewalkers: any = {
           {
             src: 'ch1_pg1_nr4.png',
             right: 0,
-            top: 49,
-            scale: 40.2,
+            top: 46,
+            scale: 49.2,
+            border: '.15rem solid black',
+          },
+          {
+            src: 'ch1_pg1_nr5.png',
+            left: 0,
+            top: 46,
+            scale: 49.2,
             border: '.15rem solid black',
           },
         ],
@@ -80,12 +87,42 @@ export const firewalkers: any = {
       {
         page: 2,
         height: 71,
-        panels: [],
+        panels: [
+          {
+            src: 'ch1_pg2_nr3.png',
+            right: 0,
+            top: 40,
+            scale: 67.8,
+            border: '0 solid black',
+          },
+          {
+            src: 'ch1_pg2_nr2.png',
+            left: 0,
+            top: 11,
+            scale: 67,
+            border: '.15rem solid black',
+          },
+          {
+            src: 'ch1_pg2_nr1.png',
+            right: 0,
+            top: 0,
+            scale: 50,
+            border: '.15rem solid black',
+          },
+        ],
       },
       {
         page: 3,
-        height: 71,
-        panels: [],
+        height: 77,
+        panels: [
+          {
+            src: 'ch1_pg3_nr1.png',
+            right: 0,
+            top: 0,
+            scale: 100,
+            border: '.15rem solid black',
+          },
+        ],
       },
       {
         page: 4,

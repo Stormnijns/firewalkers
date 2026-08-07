@@ -12,7 +12,7 @@ const chapter = computed(() => Number(route.params.id ?? 0))
   <RouterLink to="/">
     <button id="back-btn">BACK</button>
   </RouterLink>
-  <h1>CHAPTER {{ chapter }}: {{ firewalkers.chapters[chapter][0].description || "???" }} </h1>
+  <h1>CHAPTER {{ chapter }}: {{ firewalkers.chapters[chapter][0].description || '???' }}</h1>
   <MangaPage
     v-for="page in firewalkers.chapters[chapter]"
     :key="page.page"
@@ -24,7 +24,7 @@ const chapter = computed(() => Number(route.params.id ?? 0))
 
 <style scoped>
 .page {
-  background: whitesmoke;
+  background: #f8f8f8;
   margin-bottom: 1rem;
 }
 a {
